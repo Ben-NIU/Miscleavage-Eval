@@ -9,7 +9,7 @@ dashboardPage(skin="purple",
      
     
       sliderInput("width", label="Mass range (Da) within each bin", min=50, max=400, value=250, step=50),
-      sliderInput("binwd", label="Bin width", min=1, max=5, value=1, step=1)  
+      sliderInput("binwd", label="Bin width", min=0.5, max=2, value=0.5, step=0.5)  
       
       
       )

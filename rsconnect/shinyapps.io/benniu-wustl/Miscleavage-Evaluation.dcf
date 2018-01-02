@@ -1,0 +1,12 @@
+name: Miscleavage-Evaluation
+title: Miscleavage-Evaluation
+username:
+account: benniu-wustl
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 253175
+bundleId: 1159409
+url: https://benniu-wustl.shinyapps.io/Miscleavage-Evaluation/
+when: 1514926136.60887
+asMultiple: FALSE
+asStatic: FALSE

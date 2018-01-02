@@ -27,8 +27,8 @@ shinyServer(function(input, output) {
   })
   
   output$down.plot<-downloadHandler(filename = function(){paste("MassDistribution-", ".png",sep="")}, content=function(file){
-    device<-function(..., width=6, height=3) grDevices::png(..., width=6, height=3, res=400, unit="in")
-    ggsave(file, plot=Plot.data(Sep.mz.data(PRO(), wid.=input$width), bin=input$binwd), device="png", dpi=400, height=3, width = 6, units="in")}, contentType = "image/png")
+    device<-function(..., width=8, height=3) grDevices::png(..., width=8, height=3, res=400, unit="in")
+    ggsave(file, plot=Plot.data(Sep.mz.data(PRO(), wid.=input$width), bin=input$binwd), device="png", dpi=400, height=3, width = 8, units="in")}, contentType = "image/png")
   }
     )  
   
